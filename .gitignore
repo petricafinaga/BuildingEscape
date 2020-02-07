@@ -3,3 +3,9 @@ BuildingEscape/Saved/
 BuildingEscape/Binaries/
 *.code-workspace
 BuildingEscape/Content/StarterContent/
+*.db
+*.db-shm
+*.db-wal
+BuildingEscape/Content/MyMap_BuiltData.uasset
+*.ipch
+*.opendb

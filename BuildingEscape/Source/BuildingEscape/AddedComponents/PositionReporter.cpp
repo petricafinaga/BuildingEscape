@@ -1,7 +1,6 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #include "PositionReporter.h"
 
+#include <GameFramework/Actor.h>
 
 // Sets default values for this component's properties
 UPositionReporter::UPositionReporter()
@@ -19,9 +18,11 @@ void UPositionReporter::BeginPlay()
 {
 	Super::BeginPlay();
 
-	auto objectName = this->GetOwner()->GetName();
+	//auto objectName = GetOwner()->GetName();
 
-	UE_LOG(LogTemp, Warning, TEXT("Position reporter for object: %s"), *objectName);
+	//UE_LOG(LogTemp, Display, TEXT("Info log: reporter <-- %d -->"), 678>>1);
+	//UE_LOG(LogTemp, Warning, TEXT("Position reporter for object: %s"), *objectName);
+	//UE_LOG(LogTemp, Error, TEXT("My name is Tarzan, I'm a jungle man %s"), *FString("asdasd"));
 
 }
 
